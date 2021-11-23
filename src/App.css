@@ -1,0 +1,246 @@
+.remove-all-styles {
+  all: revert;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img-header {
+  width: 100%;
+}
+
+.text-header {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 102, 102);
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 120px;
+}
+
+.input-group-text {
+  background-color: white;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.bi-asterisk {
+  color: red;
+}
+
+.form-control {
+  border: 1px solid #ff9797;
+  border-radius: 25px;
+  border-right: red;
+}
+
+.btn-sm {
+  border: 1px solid #ff9797;
+  border-radius: 25px;
+  padding-inline: 20px;
+  background-color: #f3cece;
+  width: 4cm;
+  color: #d63636;
+}
+
+.bi {
+  color: orange;
+}
+
+.bi-asterisk {
+  color: red;
+  font-size: 10px;
+}
+
+.footer {
+  height: 200px;
+  background-color: #ff9797;
+  color: white;
+}
+
+.footer .bi {
+  color: #d63636;
+}
+
+.form-sinup {
+  color: #940505;
+  border: 3px solid #ff9797;
+  border-radius: 50px;
+}
+
+.content-main-homepage {
+  border: 1px solid none;
+  border-radius: 50px;
+  background-color: #fff6dc;
+  padding: 1cm;
+  height: fit-content;
+  width: 23cm;
+  margin-inline: 10px;
+}
+
+.product-top-seller {
+  background-color: #fff6dc;
+  border: 1px solid none;
+  border-radius: 25px;
+  padding: 20px;
+  height: fit-content;
+  margin-inline: 10px;
+}
+
+.table-calendar {
+  margin: 0 auto 20px;
+}
+
+.today {
+  color: rgb(255, 102, 102);
+  background-color: blue;
+}
+
+.in-prev-month,
+.in-next-month {
+  opacity: 0.5;
+}
+
+/* Button in out */
+.buttonio {
+  color: #940505;
+  margin-block: 10px;
+  width: 100%;
+  background-color: #fd7878;
+  border: 1.5px solid red;
+  border-radius: 25px;
+}
+
+/* Button nav */
+.button_nav {
+  border: 1.5px solid red;
+  border-radius: 25px;
+}
+
+.calendar-content {
+  width: 50%;
+}
+
+.center-element {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+/* ID */
+#container-border > * {
+  margin-inline: 20px;
+}
+
+#container-border {
+  border: solid rosybrown;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-width: 2px;
+  width: fit-content;
+  padding: 15px 5px;
+  margin: 20px;
+}
+
+#calendar-setting > * {
+  margin-top: 13.5px;
+}
+
+.btn-danger {
+  background-color: #fd7878;
+}
+
+.form-check label {
+  margin-top: 0%;
+  margin-inline-start: 10px;
+}
+
+/* Manager */
+.mng-navbar {
+  margin-top: 2.5cm;
+  margin-inline: 30px;
+}
+
+.mng-navbar > * {
+  margin-bottom: 30px;
+}
+
+#container-border .col-md-auto {
+  width: 800px;
+}

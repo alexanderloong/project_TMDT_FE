@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #faebe0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input {
+  border: 1.5px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-weight: bolder;
+  color: #fd7878;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #c46262;
+}
